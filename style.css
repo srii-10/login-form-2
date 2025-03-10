@@ -1,0 +1,131 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-image: linear-gradient(to bottom right, #232931, #232931, #393E46, #393E46, #232931, #232931);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-page {
+    padding: 20px 50px 50px;
+    border-radius: 10px 60px;
+    box-shadow: 0 0 5px 1px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 50%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    margin: 10px 0;
+    outline: none;
+    color: whitesmoke;
+}
+
+.forgot-password {
+    margin-bottom: 15px;
+    font-size: small;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: rgba(255, 255, 255, 0.737);
+    transition: color 0.2s ease;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    margin: 10px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.352);
+    transition: box-shadow 0.3s ease;
+}
+
+
+/* -- RESPONSIVE -- */
+
+/* not compatible on all laptop devices */
+@media screen and (min-width: 1440px) and (max-width: 1728px) {
+    .login-page {
+        width: 20%;
+        height: 40%;
+        padding-top: 20px;
+    }
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    input {
+        margin: 12px 0;
+    }
+
+    button {
+        padding: 7px 0;
+    }
+}
+
+/* incompatible in iPad Mini = 768px */
+@media screen and (max-width: 834px) {
+    .login-page {
+        width: 40%;
+        height: 30%;
+        padding-bottom: 40px;
+    }
+
+    input {
+        margin: 15px 0;
+    }
+
+    button {
+        padding: 9px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-page {
+        width: 60%;
+        height: 40%;
+        padding: 10px 30px 20px;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    button {
+        padding: 7px 0;
+        margin: 7px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .login-page {
+        padding-bottom: 50px;
+    }
+
+    input {
+        margin: 10px 0;
+    }
+}

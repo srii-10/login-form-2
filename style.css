@@ -65,7 +65,7 @@ button:hover {
 
 /* -- RESPONSIVE -- */
 
-/* not compatible on all laptop devices */
+/* incompatible on all laptop devices */
 @media screen and (min-width: 1440px) and (max-width: 1728px) {
     .login-page {
         width: 20%;
@@ -86,7 +86,7 @@ button:hover {
     }
 }
 
-/* incompatible in iPad Mini = 768px */
+/* incompatible on iPad Mini = 768px */
 @media screen and (max-width: 834px) {
     .login-page {
         width: 40%;

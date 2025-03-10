@@ -107,12 +107,13 @@ button:hover {
 @media screen and (max-width: 600px) {
     .login-page {
         width: 60%;
-        height: 40%;
-        padding: 10px 30px 20px;
+        height: 35%;
+        padding: 15px 30px 20px;
     }
 
     h1 {
         font-size: x-large;
+        margin-bottom: 25px;
     }
 
     button {
@@ -123,6 +124,7 @@ button:hover {
 
 @media screen and (max-height: 800px) {
     .login-page {
+        height: 40%;
         padding-bottom: 50px;
     }
 

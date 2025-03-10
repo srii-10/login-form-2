@@ -107,28 +107,26 @@ button:hover {
 @media screen and (max-width: 600px) {
     .login-page {
         width: 60%;
-        height: 35%;
-        padding: 15px 30px 20px;
+        height: 40%;
+        padding: 20px 30px 20px;
     }
 
     h1 {
         font-size: x-large;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        margin: 15px 0;
     }
 
     button {
         padding: 7px 0;
-        margin: 7px;
     }
 }
 
 @media screen and (max-height: 800px) {
     .login-page {
-        height: 40%;
         padding-bottom: 50px;
-    }
-
-    input {
-        margin: 10px 0;
     }
 }
